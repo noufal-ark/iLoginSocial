@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <h4>Ionic 3 Firebase facebook authentication</h4>
+  <button ion-button block (click)="fb_login()">
+    <ion-icon name="logo-facebook">
+      LOGIN WITH FACEBOOK
+    </ion-icon>
+  </button>
+
+  <ion-item>{{fb_data_array?.user?.displayName}}</ion-item>
+</ion-content>
