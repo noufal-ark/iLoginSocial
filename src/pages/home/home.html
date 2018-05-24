@@ -15,4 +15,12 @@
   </button>
 
   <ion-item>{{fb_data_array?.user?.displayName}}</ion-item>
+
+  <button ion-button block outline (click)="gp_login()">
+    <ion-icon name="logo-googleplus">
+      LOGIN WITH GOOGLE PLUS
+    </ion-icon>
+  </button>
+
+  <ion-item>{{gp_data_array?.user?.displayName}}</ion-item>
 </ion-content>
